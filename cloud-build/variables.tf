@@ -20,7 +20,7 @@ variable "zone" {
 variable "machine_type" {
   type        = string
   description = "The machine type to deploy to"
-  default     = "e2-medium"
+  default     = "e2-micro" # For testing only, smallest machine
   #  default     = "n2d-highmem-64"
 }
 
