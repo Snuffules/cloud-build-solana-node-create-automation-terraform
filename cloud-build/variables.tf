@@ -42,5 +42,6 @@ variable "user" {
 }
 
 variable "boot_disk_size" {
-  default = 2000
+  default = 10 - #minimum disk size for testing
+#  default = 2000
 }
